@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Logistics Solutions</title>
+  <meta name="description" content="Global logistics solutions for worldwide shipping and supply chain management.">
+  
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="module" src="/src/js/main.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img width="100" height="80" src="/src/images/company-logo.png" class="img-fluid" alt="company-logo">
+        </a>
+        <button 
+          class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="/">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a 
+                class="nav-link dropdown-toggle" 
+                href="#" 
+                role="button" 
+                data-bs-toggle="dropdown" 
+                aria-expanded="false"
+              >
+                PAGES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/about">About Us</a></li>
+                <li><a class="dropdown-item" href="/team">Our Team</a></li>
+                <li><a class="dropdown-item" href="/faq">FAQ</a></li>
+                <li><a class="dropdown-item" href="/contact">Contact</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/tracking">TRACKING</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a 
+                class="nav-link dropdown-toggle" 
+                href="#" 
+                role="button" 
+                data-bs-toggle="dropdown" 
+                aria-expanded="false"
+              >
+                SERVICES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/services/air-freight">Air Freight</a></li>
+                <li><a class="dropdown-item" href="/services/sea-freight">Sea Freight</a></li>
+                <li><a class="dropdown-item" href="/services/road-freight">Road Freight</a></li>
+                <li><a class="dropdown-item" href="/services/rail-freight">Rail Freight</a></li>
+                <li><a class="dropdown-item" href="/services/warehousing">Warehousing</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blog">BLOG</a>
+            </li>
+          </ul>
+          <div class="d-flex ms-lg-3">
+            <a href="/quote" class="btn btn-primary me-2">GET A QUOTE</a>
+            <a href="/signin" class="btn btn-outline-primary">SIGN IN</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+ <section class="shipping-slider container-fluid px-0">
+  <div id="shippingCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-6 content p-5">
+            <small class="text-uppercase text-warning fw-bold">Logistic</small>
+            <h2 class="display-5 fw-bold">Best Shipping <span class="highlight">Partner</span></h2>
+            <p class="text-muted">
+              Amet, tempus egestas facilisis volutpat viverra molestie lobortis posuere maecenas. molestie lobortis posuere maecenas. Eget sapien, gravida neque.Amet, tempus egestas facilisis volutpat viverra molestie lobortis posuere maecenas. molestie lobortis posuere maecenas. 
+            </p>
+            <a href="#" class="btn btn-warning text-white mt-3">Discover More</a>
+          </div>
+          <div class="col-md-6 image">
+            <img src="/src/images/silder-image-1.jpeg" class="d-block img-fluid " alt="Shipping Image">
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="carousel-item">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-6 content p-5">
+            <small class="text-uppercase text-warning fw-bold">Logistic</small>
+            <h2 class="display-5 fw-bold">Global Freight <span class="highlight">Solutions</span></h2>
+            <p class="text-muted">Amet, tempus egestas facilisis volutpat viverra molestie lobortis posuere maecenas. molestie lobortis posuere maecenas. Eget sapien, gravida neque.Amet, tempus egestas facilisis volutpat viverra molestie lobortis posuere maecenas. molestie lobortis posuere maecenas. </p>
+            <a href="#" class="btn btn-warning text-white mt-3">Discover More</a>
+          </div>
+          <div class="col-md-6 image">
+            <img src="/src/images/silder-image-2.jpg" class="d-block img-fluid " alt="Shipping Image">
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <div class="btn-area">
+       <button class="prev" type="button" data-bs-target="#shippingCarousel" data-bs-slide="prev">
+         <i class="fa-solid fa-left-long"></i>
+       </button>
+   
+       <button class="next" type="button" data-bs-target="#shippingCarousel" data-bs-slide="next">
+         <i class="fa-solid fa-right-long"></i>
+       </button>
+     </div>
+
+  </div>
+</section>
+
+
+  <section class="welcome py-5 mt-5">
+    <div class="container pt-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <div class="welcome-images" data-aos="fade-up" data-aos-duration="1300">
+            <div class="image-collage">
+              <img src="/src/images/silder-image-2.jpg" alt="Worker with clipboard" class="img-main">
+              <img src="/src/images/silder-image-2.jpg" alt="Worker with hard hat" class="img-overlay-bottom">
+            </div>
+             <div class="welcome-stats">
+              <span class="stat-number">15,350+</span>
+              <span class="stat-text">Clients Worldwide</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1300">
+          <h2>TransMax Logistics Around the World</h2>
+          <h3>Transmax is the world’s driving worldwide coordinations supplier — we uphold industry and exchange the worldwide trade of merchandise through land transport.</h3>
+          <p>Our worth added administrations guarantee the progression of products proceeds consistently and supply chains stay lean and streamlined for progress.</p>
+         
+          <a href="/about" class="btn btn-primary">More About Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services py-5 bg-light" data-aos="fade-up" data-aos-duration="1300">
+     <div class="container text-center my-5">
+        <p class="text-success fw-semibold">Real Solution, Real Fast !</p>
+        <h2 class="fw-bold">Best Global Logistics Solutions.</h2>
+
+    <div class="row mt-5">
+      <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1300">
+        <div class="service-card h-100 shadow d-flex">
+          <div class="img-container">
+            <img src="/src/images/air-cargo.jpg" class="img-fluid" alt="Air Freight">
+          </div>
+          <div class="card-body text-start">
+            <h5 class="card-title fw-bold">Air Freight Services</h5>
+            <p class="card-text">We understand how challenging it can be to find reliable air freight options. Trust our efficient delivery network.</p>
+            <a href="#" class="text-decoration-none fw-semibold"><i class="fa-solid fa-circle-right"></i> Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1300">
+        <div class="service-card shadow d-flex">
+          <div class="img-container">
+            <img src="/src/images/air-cargo.jpg" class="img-fluid" alt="Drone Services">
+          </div>
+          <div class="card-body text-start">
+            <h5 class="card-title fw-bold">Drone Services</h5>
+            <p class="card-text">Our drone logistics adapt to various industries, offering fast and flexible delivery powered by cutting-edge technology.</p>
+            <a href="#" class="text-decoration-none fw-semibold"><i class="fa-solid fa-circle-right"></i> Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="statistics py-5" >
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-3 mb-4 counts" data-aos="fade-up" data-aos-duration="1300" >
+          <h3 class="count" >5000</h3>
+          <p>Packages Delivered</p>
+        </div>
+        <div class="col-md-3 mb-4 counts" data-aos="fade-up" data-aos-duration="1300">
+          <h3 class="count" >1100</h3>
+          <p>Countries Covered</p>
+        </div>
+        <div class="col-md-3 mb-4 counts" data-aos="fade-up" data-aos-duration="1300">
+          <h3 class="count" >10000</h3>
+          <p>Tons of Goods</p>
+        </div>
+        <div class="col-md-3 mb-4 counts" data-aos="fade-up" data-aos-duration="1300">
+          <h3 class="count" >1000</h3>
+          <p>Satisfied Clients</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <section class="testimonials-why py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="1300">
+          <h2 class="section-title">TRUSTED CLIENTS</h2>
+          <p class="section-subtitle">Lorem ipsum dolor sit amet consectetur</p>
+          <div class="testimonial-container">
+            <div class="testimonial active">
+              <div class="quote-box">
+                <span class="quote-icon">"</span>
+                <p>Integer congue elit non semper laoreet sed lectus orci posuer nisi tempor se felis ac mauris. Pellentesque inyd urna. Integer vitae felis vel magna posu du vestibulum. Nam rutrum congue diam. Aliquam malesuada maurs etug met Curabitur laoreet convallis nisal pellentesque bibendum.</p>
+              </div>
+              <p class="author">JOHN DEO</p>
+              <p class="title">Managing Director</p>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1300">
+          <h2 class="section-title">WHY CHOOSE US</h2>
+          <p class="section-subtitle">Lorem ipsum dolor sit amet consectetur</p>
+          <div class="accordion" id="whyChooseAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Dui ac hendrerit elementum quam ipsum auctor lorem
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body">
+                  Mauris vel magna a est lobortis vulputat
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Sed bibendum ornare lorem mauris feugiat suspendisse neque
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body">
+                  Nulla scelerisque duh hendrerit elementum quam
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Mauris vel magna a est lobortis vulputat
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body">
+                  Sed bibendum ornare lorem mauris feugiat suspendisse neque
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Nulla scelerisque duh hendrerit elementum quam
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#whyChooseAccordion">
+                <div class="accordion-body">
+                  Dui ac hendrerit elementum quam ipsum auctor lorem
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="client-logos py-5" data-aos="fade-up" data-aos-duration="1300">
+    <div class="container">
+      <h2 class="text-center mb-4">Trusted Clients</h2>
+      <div class="owl-carousel owl-theme">
+        <div class="item"><img src="/src/images/company-logos.png" alt="Client 1"></div>
+        <div class="item"><img src="/src/images/company-logos.png" alt="Client 2"></div>
+        <div class="item"><img src="/src/images/company-logos.png" alt="Client 3"></div>
+        <div class="item"><img src="/src/images/company-logos.png" alt="Client 4"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="latest-news py-5">
+    <div class="container">
+      <h2 class="latest-news-header">LATEST NEWS <span class="latest-news-label">INTEGER CONGUE ELIT</span></h2>
+      <div class="row">
+        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1300">
+          <div class="news-card">
+            <div class="date-circle">26
+              <span>AUG</span>
+            </div>
+            <img src="/src/images/air-cargo.jpg" class="card-img-top" alt="News 1">
+            <div class="card-body">
+              <h5 class="card-title">CURABITUR LOREM UISQ</h5>
+              <p class="admin mb-0" >Admin <span class="news-time">15</span></p>
+              <p class="card-text"> Pellentesque habitant morbi tristique senectus et netus et malesuada fames turpis egestas. Aenean non donec...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4"  data-aos="fade-up" data-aos-duration="1300">
+          <div class="news-card">
+            <div class="date-circle">22
+              <span>SEP</span>
+            </div>
+            <img src="/src/images/air-cargo.jpg" class="card-img-top" alt="News 2">
+            <div class="card-body">
+              <h5 class="card-title">CURABITUR LOREM UISQ</h5>
+              <p class="admin mb-0" >Admin <span class="news-time">15</span></p>
+              <p class="card-text"> Pellentesque habitant morbi tristique senectus et netus et malesuada fames turpis egestas. Aenean non donec...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1300">
+          <div class="news-card">
+            <div class="date-circle">20
+              <span>NOV</span>
+            </div>
+            <img src="/src/images/air-cargo.jpg" class="card-img-top" alt="News 3">
+            <div class="card-body">
+              <h5 class="card-title">CURABITUR LOREM UISQ</h5>
+              <p class="admin mb-0" >Admin <span class="news-time">15</span></p>
+              <p class="card-text"> Pellentesque habitant morbi tristique senectus et netus et malesuada fames turpis egestas. Aenean non donec...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1300">
+          <div class="news-card">
+            <div class="date-circle">15
+              <span>DEC</span>
+            </div>
+            <img src="/src/images/air-cargo.jpg" class="card-img-top" alt="News 4">
+            <div class="card-body">
+              <h5 class="card-title">CURABITUR LOREM UISQ</h5>
+              <p class="admin mb-0" >Admin <span class="news-time">15</span></p>
+              <p class="card-text"> Pellentesque habitant morbi tristique senectus et netus et malesuada fames turpis egestas. Aenean non donec...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<footer class="pt-5 pb-3">
+  <div class="container">
+    <div class="row mb-5 align-items-center">
+      <div class="col-md-6">
+        <h5 class="mb-1">Weekly Newsletter</h5>
+        <p class="mb-0 ">There are many variations of passages of lorem ipsum available.</p>
+      </div>
+      <div class="col-md-6">
+        <form class="d-flex">
+          <input type="email" class="form-control me-2" placeholder="Enter your mail" required>
+          <button class="btn btn-warning" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase mb-3">About Us</h6>
+        <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="mb-1"><i class="fa-solid fa-phone"></i> (+94) 11 434 7575</p>
+        <p class="mb-0"><i class="fa-solid fa-location-dot"></i> 42 Lily Ave, Colombo 00600</p>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase mb-3">Latest News</h6>
+        <ul class="list-unstyled text-muted">
+          <li class="mb-2">Sed ut perspiciatis unde omnis iste natus error. <br><small>5 minutes ago</small></li>
+          <li>Sed ut perspiciatis unde omnis iste natus error. <br><small>5 minutes ago</small></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase mb-3">Customer Service</h6>
+        <ul class="list-unstyled text-muted">
+          <li><a href="#" class="text-reset text-decoration-none">Support Forums</a></li>
+          <li><a href="#" class="text-reset text-decoration-none">Communication</a></li>
+          <li><a href="#" class="text-reset text-decoration-none">FAQs</a></li>
+          <li><a href="#" class="text-reset text-decoration-none">Privacy Policy</a></li>
+          <li><a href="#" class="text-reset text-decoration-none">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase mb-3">Highlights</h6>
+        <div class="row g-2">
+          <div class="col-4"><img src="/src/images/footer-grid.jpg" class="img-fluid rounded" alt="Highlight 1"></div>
+          <div class="col-4"><img src="/src/images/footer-grid.jpg" class="img-fluid rounded" alt="Highlight 2"></div>
+          <div class="col-4"><img src="/src/images/footer-grid.jpg" class="img-fluid rounded" alt="Highlight 3"></div>
+          <div class="col-4"><img src="/src/images/footer-grid.jpg" class="img-fluid rounded" alt="Highlight 4"></div>
+          <div class="col-4"><img src="/src/images/footer-grid.jpg" class="img-fluid rounded" alt="Highlight 5"></div>
+          <div class="col-4"><img src="/src/images/footer-grid.jpg" class="img-fluid rounded" alt="Highlight 6"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center pt-3 border-top border-secondary mt-4">
+      <p class="mb-2 mb-md-0">&copy; 2025 All rights reserved. Site by <a href="#" class="text-decoration-none">Xiteb</a></p>
+      <div>
+        <a href="#" class="text-reset me-3"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="text-reset me-3"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="text-reset me-3"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#" class="text-reset"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+
+      $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          autoplay:true,
+          autoplayTimeout:3000,
+          nav:true,
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:3
+              },
+              1000:{
+                  items:5
+              }
+          }
+      });
+    });
+</script>
+</body>
+</html>
