@@ -43,23 +43,6 @@ Prerequisites
 Node.js and npm installed (Node.js v22+ recommended for Vite).
 Vite installed globally or as a dev dependency (npm install vite --save-dev).
 
-Project Structure
-project-root/
-├── public/
-│   ├── dist/
-│   │   ├── assets
-│   └(other public assets)
-├── src/
-│   ├── images/
-│   │   └── logo.jpg
-│   ├── css/
-│   │   └── styles.scss
-│   ├── js/
-│   │   └── main.js
-├── index.html
-├── vite.config.js
-├── package.json
-└── README.md
 
 Setup
 
